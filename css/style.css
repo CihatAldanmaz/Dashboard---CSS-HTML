@@ -175,5 +175,14 @@ body {
 
 .content {
     flex:1;
+    display: flex;
 }
 
+.content .inner {
+    flex: 1;
+}
+
+.content .rightbar {
+    width: 360px;
+    border-left: 2px solid #F6F7FA;
+}
