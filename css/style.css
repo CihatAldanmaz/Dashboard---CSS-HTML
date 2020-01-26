@@ -180,9 +180,44 @@ body {
 
 .content .inner {
     flex: 1;
+    padding: 32px 65px;
+
+}
+
+.content .inner .search {
+    position: relative;
+}
+
+.content .inner .search label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8F94B8
+}
+
+.content .inner .search input {
+    width: 340px;
+    height: 44px;
+    border-radius: 44px;
+    background: rgba(202, 206, 231, .14);
+    font-size: 14px;
+    padding: 0 20px 0 50px;
+    box-sizing: border-box;
+
+}
+
+.content .inner .search input::placeholder{
+    color: #8F94B8;
+    
 }
 
 .content .rightbar {
     width: 360px;
+    padding: 32px 0;
     border-left: 2px solid #F6F7FA;
 }
