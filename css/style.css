@@ -283,8 +283,12 @@ body {
 .content .inner .inner-box .box.active .box-top {
     display: flex;
     justify-content: space-between;
+    padding:20px    
+}
 
-    
+.content .inner .inner-box .box.active .box-top i {
+    color: #FBD199;
+    font-size: 24px;
 }
 
 .content .inner .inner-box .box.active .box-top .box-shared {
@@ -300,6 +304,10 @@ display: flex;
     margin-left: -10px;
 }
 
+.content .inner .inner-box .box.active .box-title {
+    display: flex;
+    flex-direction: column;
+}
 
 
 
