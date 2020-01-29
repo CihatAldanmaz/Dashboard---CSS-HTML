@@ -181,6 +181,7 @@ body {
 .content .inner {
     flex: 1;
     padding: 32px 65px;
+    overflow: auto;
 
 }
 
@@ -379,6 +380,46 @@ display: flex;
 font-size: 12px;
 color: #132046;
 
+}
+
+
+.content .inner .inner-box .recents ul li{
+    height: 64px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding:20px;
+    box-sizing: border-box;
+    
+}
+
+.content .inner .inner-box .recents ul li a{
+    flex: 1;
+    font-size: 14px;
+    color: #0E1B42;
+    display: flex;
+    align-items: center;
+}
+
+
+.content .inner .inner-box .recents ul li a i.fa-folder{
+font-size: 24px;
+color:#FBD199;
+margin-right: 10px;
+
+}
+
+.content .inner .inner-box .recents ul li:hover {
+    background: #F4F5FA;
+    
+}
+
+.content .inner .inner-box .recents ul li .visibility,
+.content .inner .inner-box .recent ul li .size {
+    font-size: 12px;
+    width: 100px;
+    color: #8186AD;
+    text-align: center;
 }
 
 .content .rightbar {
